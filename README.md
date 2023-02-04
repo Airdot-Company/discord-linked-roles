@@ -1,5 +1,8 @@
-<p align="center"><a href="https://nodei.co/npm/discord-linked-roles/"><img src="https://nodei.co/npm/discord-linked-roles.png"></a></p>
-<p align="center"><img src="https://img.shields.io/npm/v/discord-linked-roles"> <img src="https://img.shields.io/npm/dm/discord-linked-roles?label=downloads"> <img src="https://img.shields.io/npm/l/discord-linked-roles"> <img src="https://img.shields.io/github/repo-size/meister03/discord-linked-roles">  <a href="https://discord.gg/YTdNBHh"><img src="https://discordapp.com/api/guilds/697129454761410600/widget.png" alt="Discord server"/></a></p>
+<p align="center"><a href="https://nodei.co/npm/@airdot/linked-roles/"><img src="https://nodei.co/npm/@airdot/linked-roles.png"></a></p>
+<p align="center"><img src="https://img.shields.io/npm/v/@airdot/linked-roles"> <img src="https://img.shields.io/npm/dm/@airdot/linked-roles?label=downloads"> <img src="https://img.shields.io/npm/l/@airdot/linked-roles"> <img src="https://img.shields.io/github/repo-size/Airdot-Company/linked-roles">  <a href="https://discord.gg/Rgxv5M6sq9"><img src="https://discordapp.com/api/guilds/1028789308401918004/widget.png" alt="Discord server"/></a></p>
+
+### 🪄 This is a fork [meister03/discord-linked-roles](https://github.com/meister03/discord-linked-roles)
+ This is a fork of [meister03/discord-linked-roles](https://github.com/meister03/discord-linked-roles), this fork fixes some invalid typings.
 
 # Discord-linked-roles
 A powerful and easy to use package to create linked roles and update user metadata.
@@ -9,18 +12,9 @@ A powerful and easy to use package to create linked roles and update user metada
 - OAuth2 Authorization flow
 - Less backend code
 
-### Featured by Discord Creators:
-[Exclusive Private Community for Verified Bot Developers. ](https://discord.gg/R3hPevRtUV)
-
-[Meet big bot (1 mio+) and small bot developers and have a nice exchange...](https://discord.gg/R3hPevRtUV)
-
-Feel free to test the Feature in this Server:
-<p>
-<a href="https://discord.gg/R3hPevRtUV">
-<img src="https://media.discordapp.net/attachments/980770619161448489/982938274677018624/banner.png?width=320&height=80">
-<img src="https://media.discordapp.net/attachments/1051910435823169577/1056984485914230784/image.png?width=320&height=120">
-</a>
-</p>
+## Examples
+![Example Image](https://media.discordapp.net/attachments/975812290198765588/1057401509790363738/image.png)
+![Example Image](https://media.discordapp.net/attachments/1051910435823169577/1056984485914230784/image.png?width=320&height=120)
 
 ## Getting Started
 1. Create a new application on the [Discord Developer Portal](https://discord.com/developers/applications)

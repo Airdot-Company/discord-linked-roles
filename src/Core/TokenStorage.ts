@@ -8,31 +8,31 @@ export class TokenStorage {
         this.tokens = new Map();
     }
 
-    async get(userId: string){
-        if(!this.tokens.has(userId)){
+    async get(userId: string) {
+        if (!this.tokens.has(userId)) {
             const token = await this.provider.fetchUser(userId);
-            if(token) this.tokens.set(userId, token);
+            if (token) this.tokens.set(userId, token);
         }
         return this.tokens.get(userId);
     }
 
-    async set(userId: string, token: OAuthTokens){
+    async set(userId: string, token: OAuthTokens) {
         this.tokens.set(userId, token);
         await this.provider.createOrUpdate(userId, token);
     }
 
-    async delete(userId: string){
+    async delete(userId: string) {
         this.tokens.delete(userId);
         await this.provider.deleteUser(userId);
     }
 
-    async getAllUsers(){
+    async getAllUsers() {
         return this.provider.findAll();
     }
 }
 
 export type DataBaseProvider = {
-    findAll(): Promise<{tokens: OAuthTokens, id: string}>;
+    findAll(): Promise<{ tokens: OAuthTokens, id: string }[]>;
     // Gets the token for the user
     fetchUser: (userId: string) => Promise<OAuthTokens | undefined>;
     createOrUpdate: (userId: string, token: OAuthTokens) => Promise<void>;

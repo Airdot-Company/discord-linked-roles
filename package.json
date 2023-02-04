@@ -1,5 +1,5 @@
 {
-    "name": "discord-linked-roles",
+    "name": "@airdot/linked-roles",
     "version": "0.2.1",
     "description": "A powerful package to create & update linked roles for applications",
     "main": "./dist/index.js",
@@ -37,7 +37,8 @@
         "bot",
         "bots",
         "roles",
-        "framework"
+        "framework",
+        "discord-roles"
     ],
     "author": "meister03",
     "license": "MIT",
