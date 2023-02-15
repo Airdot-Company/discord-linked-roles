@@ -122,5 +122,5 @@ export interface ApplicationMetaData {
     key: string;
     name: string;
     description: string;
-    type: typeof MetaDataTypes;
+    type: MetaDataTypes;
 }
