@@ -19,7 +19,7 @@
         "format": "prettier --check .",
         "format:fix": "prettier --write .",
         "generate-docs": "jsdoc -c ./.jsdoc.conf.json",
-        "build": "yarn build"
+        "build": "tsc"
     },
     "repository": {
         "type": "git",
