@@ -21,7 +21,7 @@
         "generate-docs": "jsdoc -c ./.jsdoc.conf.json",
         "build": "tsc",
         "prepublish": "yarn build",
-        "install": "yarn install && yarn build"
+        "install": "yarn && yarn build"
     },
     "repository": {
         "type": "git",
